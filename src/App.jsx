@@ -384,8 +384,6 @@
 //       .then((response) => response.json())
 //       .then((data) => {
 //         setUsers(data);
-
-
 //       });
 //   }, []);
 
@@ -393,8 +391,6 @@
 
 //   return (
 //     <div>
-
-
 
 
 //       {users.map((user) => (
@@ -406,11 +402,7 @@
 //   );
 
 
-
 // };
-
-
-
 
 
 
