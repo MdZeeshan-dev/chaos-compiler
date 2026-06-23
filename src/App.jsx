@@ -387,28 +387,11 @@
 //       });
 //   }, []);
 
-
-
-
-
-
 //   return (
 //     <div>
 
-
-
-
-
 //       {users.map((user) => (
 //         <h2 key={user.id}>
-
-
-
-
-
-
-
-
 
 //           {user.name}
 //         </h2>
@@ -416,18 +399,7 @@
 //     </div>
 //   );
 
-
 // };
-
-
-
-
-
-
-
-
-
-
 
 // export default App;
 
@@ -460,25 +432,58 @@
 
 //   );
 
-
-
-
-
 //mai hu gian mai hu bara takat war mera gala hai bahut surila log mera gana sun kar ho jate hai madhosh
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // };
 
 // export default App;
+
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// import React from "react";
+// import Home from "./pages/home";
+// import Login from "./pages/login";
+// import About from "./pages/about";
+
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<home />}></Route>
+
+//         <Route path="/login" element={<Login />} />
+
+//         <Route path="/about" element={<About />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// };
+
+// export default App;
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import About from "./pages/About";
+
+const App = () => {
+  return (
+    <BrowserRouter>
+
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+
+        <Route path="/login" element={<Login />} />
+
+        <Route path="/about" element={<About />} />
+
+      </Routes>
+
+    </BrowserRouter>
+  );
+};
+
+export default App;
