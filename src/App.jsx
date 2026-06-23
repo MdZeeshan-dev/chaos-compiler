@@ -461,7 +461,6 @@
 
 // export default App;
 
-
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -471,11 +470,7 @@ import About from "./pages/About";
 const App = () => {
   return (
     <BrowserRouter>
-
-
-
-          <nav>
-
+      <nav>
         <Link to="/">Home</Link>
 
         <br />
@@ -485,20 +480,17 @@ const App = () => {
         <br />
 
         <Link to="/about">About</Link>
-
       </nav>
 
       <hr />
-      <Routes>
 
+      <Routes>
         <Route path="/" element={<Home />} />
 
         <Route path="/login" element={<Login />} />
 
         <Route path="/about" element={<About />} />
-
       </Routes>
-
     </BrowserRouter>
   );
 };
