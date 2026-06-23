@@ -462,7 +462,7 @@
 // export default App;
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -472,6 +472,23 @@ const App = () => {
   return (
     <BrowserRouter>
 
+
+
+          <nav>
+
+        <Link to="/">Home</Link>
+
+        <br />
+
+        <Link to="/login">Login</Link>
+
+        <br />
+
+        <Link to="/about">About</Link>
+
+      </nav>
+
+      <hr />
       <Routes>
 
         <Route path="/" element={<Home />} />
