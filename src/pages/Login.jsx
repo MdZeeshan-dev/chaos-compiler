@@ -6,8 +6,22 @@
 
 // export default login
 
+
+import { useNavigate } from "react-router-dom";
 const Login = () => {
-  return <h1>Login Page</h1>;
+
+    const navigate = useNavigate();
+
+    function handlelogin() {
+        navigate("/");
+    }
+  return (
+    <div>
+        <h1>Login page</h1>
+
+        <button onClick={handlelogin}>login</button>
+    </div>
+  )
 };
 
 export default Login;
