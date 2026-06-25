@@ -81,9 +81,47 @@
 //         console.log(data);
 // });
 
-async function getUsers() {
-  console.log("start");
+// async function getUsers() {
+//   console.log("start");
 
-  const response = await fetch(URL);
-  console.log("response aya");
+//   const response = await fetch(URL);
+//   console.log("response aya");
+// }
+
+
+// let x = 100;
+ 
+
+// function zes() {
+//   console.log(x);
+  
+// }
+
+// zes();
+
+// function ref() {
+//   let y = 8;
+//   console.log(y);
+// }
+
+// ref();
+// console.log(y);
+
+
+
+let  a = 9;
+{
+
+  let b = 99;
+  console.log(a);
+  console.log(b);
+  
+  
 }
+
+console.log(a);
+console.log(b);
+
+
+
+
