@@ -12,14 +12,11 @@
 //   const city = "muzaffarpur";
 
 
-
 //   return (
 //     <div>
 //       <h1>name: {name}</h1>
 //       <h1>age: {age}</h1>
 //       <h2>city: {city}</h2>
-
-
 
 //       <h4>age after 5 years: {age+5}</h4>
 //       <ProfilePic city = "muzaffarpur" time = {99} />
@@ -29,12 +26,6 @@
 //       <UserCard  name= "rahul" age = {2}  />
 //       <UserCard  name= "suzuki" age = {4} />
 //     </div>
-
-
-
-
-
-
 //   );
 // }
 
