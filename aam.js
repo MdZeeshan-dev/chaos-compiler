@@ -37,6 +37,9 @@
 // console.log(parseInt("100px"));
 // console.log(parseFloat("10.5px"));
 
-console.log(5 == "5");
-console.log(5 === "5");
+// console.log(5 == "5");
+// console.log(5 === "5");
 
+const result = marks >= 40 ? "pass" : "fail";
+
+console.log(result);
