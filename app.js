@@ -113,16 +113,17 @@
 
 
 
-let  a = 9;
-{
+// let  a = 9;
+// {
 
-  let b = 99;
-  console.log(a);
-  console.log(b);
+//   let b = 99;
+//   console.log(a);
+//   console.log(b);
   
   
-}
+// }
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
 
