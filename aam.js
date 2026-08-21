@@ -63,12 +63,14 @@
 
 
 
-const person = {
+// const person = {
 
-  name: "zeeshan",
-  age:  22,
-}
+//   name: "zeeshan",
+//   age:  22,
+// }
 
-for (const key in person) {
-  console.log(key, person[key]);
-};
+// for (const key in person) {
+//   console.log(key, person[key]);
+// };
+
+
