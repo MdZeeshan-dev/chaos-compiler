@@ -68,3 +68,11 @@
 // for (const key in person) {
 //   console.log(key, person[key]);
 // };
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5)
+  {
+    break;
+  }
+  console.log(i);
+}

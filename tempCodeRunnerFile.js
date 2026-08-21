@@ -1,4 +1,3 @@
-
 // const string = "Hello";
 // const number = 100;
 // const boolean = true;
