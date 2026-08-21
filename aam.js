@@ -40,7 +40,6 @@
 
 // console.log(result);
 
-
 // const day = 7;
 
 // switch (day) {
@@ -60,9 +59,6 @@
 //     console.log("Invalid");
 // }
 
-
-
-
 // const person = {
 
 //   name: "zeeshan",
@@ -72,9 +68,3 @@
 // for (const key in person) {
 //   console.log(key, person[key]);
 // };
-
-
-
-
-
-
