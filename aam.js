@@ -1,4 +1,3 @@
-
 // const string = "Hello";
 // const number = 100;
 // const boolean = true;
@@ -15,8 +14,6 @@
 // console.log(typeof bigNumber);
 // console.log(typeof id);
 
-
-
 // const user = {
 //   name: "Zeeshan",
 //   age: 21
@@ -26,7 +23,6 @@
 
 // console.log(typeof user);
 // console.log(typeof numbers);
-
 
 // const value = "100";
 
@@ -40,6 +36,26 @@
 // console.log(5 == "5");
 // console.log(5 === "5");
 
-const result = marks >= 40 ? "pass" : "fail";
+// const result = marks >= 40 ? "pass" : "fail";
 
-console.log(result);
+// console.log(result);
+
+
+const day = 7;
+
+switch (day) {
+  case 1:
+    console.log("monday");
+    break;
+
+  case 2:
+    console.log("okovako");
+    break;
+  case 7:
+    console.log("sunday");
+    break;
+
+  default:
+
+    console.log("Invalid");
+}
